@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="weather site">
+    <title>Weather</title>
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- fontawesome -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- css -->
+    <link rel="shortcut icon" href="PH/weather.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--  Nav  -->
+    <nav class="navbar">
+        <div class="container pt-3">
+            <form class="w-100 d-flex" role="search">
+                <input class="form-control me-2 w-50 rounded-3" type="search" id="search" name="search"
+                    placeholder="Search" aria-label="Search">
+                <button class="btn btn-warning me-md-2 btn" type="button">Search</button>
+            </form>
+            <div class="alert alert-danger p-1 w-50 mt-2 d-none" role="alert">
+
+            </div>
+        </div>
+    </nav>
+    <!--  Nav  -->
+    <!-- weather -->
+    <div class="container d-lg-flex text-light justify-content-between pt-5">
+        <div class="col-lg-7">
+            <div class="row location">
+            </div>
+            <div class="row bg-dark bg-opacity-50 rounded-4 py-3 my-3 AIR">
+            </div>
+            <div class="row bg-dark bg-opacity-50 rounded-4 py-3 my-1">
+                <h2 class="h6 ">Today`s astro</h2>
+                <div class="astro d-flex">
+                   
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 p-5 bg-dark bg-opacity-50 rounded text-dark-emphasis">
+            <h4 class="h6">
+                7-DAY FORECAST
+            </h4>
+            <div class="cont">
+            </div>
+        </div>
+    </div>
+    <!-- weather -->
+
+    <footer class="pt-5 text-center text-light">
+        <p class="lead">
+            Made with all love  <i class="fa-solid fa-heart-pulse"></i> by Ibrahim Essam
+        </p>
+    </footer>
+
+    <!-- js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- js -->
+</body>
+
+</html>
